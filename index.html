@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Cronometro</title>
+    <link rel="stylesheet" href="./assets/main.css">
+</head>
+<body>
+    
+    <h1>André leite</h1>
+    
+    <div class="container">
+        <h2>Cronometro</h2>
+        <br><br>
+        <h3>Minutos:</h3>
+        <select name="minutos" id="minutos" ></select><br><br>
+        <h3>Segundos:</h3>
+        <select name="segundos" id="segundos"></select><br><br>
+        
+        <button id="comecar" >Começar</button>
+        
+        <div class="display">
+            <h3></h3>
+        </div>
+    </div>
+    
+    <audio src="./assets/alarm.mp3" style="display: none;" id="sound"></audio>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
