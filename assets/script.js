@@ -1,4 +1,4 @@
-var display = document.querySelector(".display")
+var display = document.getElementById("display")
 let minutos = document.getElementById('minutos');
 let segundos = document.getElementById('segundos');
 let comecar = document.getElementById('comecar');
